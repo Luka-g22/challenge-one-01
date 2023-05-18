@@ -1,0 +1,151 @@
+:root {
+  --color1: #dad7cdff;
+  --color2: #a3b18aff;
+  --color3: #588157ff;
+  --color4: #3a5a40ff;
+  --color5: #344e41ff;
+}
+
+body {
+  background-color: var(--color1);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  color: var(--color4);
+}
+
+header > h1 {
+  font-size: 35px;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}
+
+.logo {
+  margin: 1%;
+  height: 60px;
+}
+
+main {
+  display: flex;
+  margin: 2.5% 10%;
+  height: 703px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+textarea {
+  background-color: transparent;
+  color: var(--color4);
+  text-transform: lowercase;
+  font-size: 32px;
+  outline: none;
+  border: none;
+  resize: none;
+  height: 600px;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5%;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  width: 320px;
+  height: 55px;
+  border-radius: 18px;
+  font-size: 18px;
+}
+
+.btn-encriptar {
+  color: #ffffff;
+  background: var(--color4);
+  border: 1px solid var(--color4);
+  transition: 0.5s ease-in-out;
+}
+
+.btn-encriptar:hover {
+  background: var(--color3);
+  transition: 0.5s ease-in-out;
+}
+
+.btn-desencriptar,
+.btn-copiar {
+  color: var(--color4);
+  box-sizing: border-box;
+  background: transparent;
+  border: 1px solid var(--color4);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-desencriptar:hover {
+  background: var(--color2);
+  color: var(--color5);
+  border: 1px solid var(--color5);
+  transition: 0.5s ease-in-out;
+}
+
+.btn-copiar {
+  transition: 3s ease-in-out;
+}
+
+.btn-copiar:active {
+  background-color: var(--color5);
+  color: #ffffff;
+  transition: 0s;
+}
+
+.sidebar {
+  background-color: var(--color1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 8px 30px -8px var(--color4);
+  padding: 50px;
+  margin: 0 50px;
+  color: #343a40;
+}
+
+.informacion {
+  color: var(--color5);
+  opacity: 0.8;
+}
+
+.sidebar > textarea {
+  color: var(--color5);
+  font-size: 25px;
+}
+
+.sidebar > textarea::placeholder {
+  background: no-repeat center center/70% url(images/proteger.png);
+  width: 100px;
+  opacity: 0.3;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color4);
+  height: 50px;
+  color: #ffffff;
+}
