@@ -1,5 +1,5 @@
-# Challenge ONE | Lógica de Programación | Encriptador de texto 🔒
-
+ <h1 align="center"> Challenge ONE | Encriptador de texto 🔒 </h1>
+ 
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://github.com/Luka-g22/challenge-one-01/assets/83355802/33985ea9-cf3a-4461-b2e8-50f8ce78c455" />
@@ -12,7 +12,7 @@ Este proyecto es una aplicación que solo utiliza HTML, CSS y JavaScript para en
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=html,css,js" />
+    <img src="https://skills.thijs.gg/icons?i=js,html,css" />
   </a>
 </p>
 
@@ -25,7 +25,7 @@ La página web cuenta con un campo para que el usuario pueda ingresar el texto q
 
 # En construccion 🛠️
 
-❌ Responsive web design para diferentes dispositivos.
+❌ Responsive web design para el uso en diferentes dispositivos.
 
 # Autor
 
