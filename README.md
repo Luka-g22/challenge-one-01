@@ -18,10 +18,9 @@ Este proyecto es una aplicación que solo utiliza HTML, CSS y JavaScript para en
 
 La página web cuenta con un campo para que el usuario pueda ingresar el texto que desea encriptar o desencriptar y seleccionar la opción correspondiente. El resultado de la operación se muestra en la parte derecha de la pantalla y existe la opción de copiar el texto al portapapeles mediante el botón "copiar".
 
-# Screenshot 📸
-![Screenshot 2023-05-18 at 15-45-53 Encriptador](https://github.com/Luka-g22/challenge-one-01/assets/83355802/2b4186e1-b796-48e1-9a66-c29f547698a5)
+# Screenshots 📸
 
-![Screenshot 2023-05-18 at 16-31-28 Encriptador](https://github.com/Luka-g22/challenge-one-01/assets/83355802/2cf132b5-d504-4bff-990a-12df93a956b8)
+![Screenshot 2023-06-04 at 09-35-46 Encriptador Online](https://github.com/Luka-g22/challenge-one-01/assets/83355802/70fc17e5-4ce9-466d-9af0-dcbc896806f8)
 
 # En construccion 🛠️
 
