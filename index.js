@@ -1,6 +1,4 @@
 let textArea = document.querySelector(".textarea");
-let mensaje = document.querySelector(".mensaje");
-let ingreseTexto = document.querySelector(".ingreseTexto");
 
 let matriz = [
   ["e", "enter"],
@@ -10,16 +8,9 @@ let matriz = [
   ["u", "ufat"],
 ];
 
-if (mensaje.length == 0) {
-  ingreseTexto.style.visibility = "visible";
-} else {
-  ingreseTexto.style.visibility = "hidden";
-}
-
 function encriptarClick() {
   const textoEncriptado = encriptar(textArea.value);
-  mensaje.value = textoEncriptado;
-  textArea.value = "";
+  textArea.value = textoEncriptado;
 }
 
 function encriptar(stringEncriptado) {
@@ -34,8 +25,7 @@ function encriptar(stringEncriptado) {
 
 function desencriptarClick() {
   const textoEncriptado = desencriptar(textArea.value);
-  mensaje.value = textoEncriptado;
-  textArea.value = "";
+  textArea.value = textoEncriptado;
 }
 
 function desencriptar(stringDesencriptado) {
@@ -50,6 +40,5 @@ function desencriptar(stringDesencriptado) {
 }
 
 function copiarClick() {
-  navigator.clipboard.writeText(mensaje.value);
+  navigator.clipboard.writeText(textArea.value);
 }
-

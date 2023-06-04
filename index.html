@@ -4,40 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="normalize.css"/>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
-    <title>Encriptador</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador Online</title>
   </head>
   <body class="cuerpo">
     <header class="header">
-      <img class="logo" src="images/security.png" alt="Logo" />
-      <h1>Encriptador de Texto</h1>
+      <img class="logo" src="images/cyber-security.png" alt="Logo" />
+      <h1>Encriptador Online</h1>
     </header>
-    <main>
+    <main class="main" >
       <section class="principal">
-          <textarea class="textarea" placeholder="Ingrese el texto aqui" rows="15" cols="30"></textarea>
-        <div>
-          <p class="informacion"> <img src="images/Vector.png" height="12px"> Solo letras minúsculas y sin acentos</p>
+        <div class="texto">
+          <p class="explicacion">
+            Encriptador Online es una herramienta que te permite cifrar y descifrar texto
+            a partir de un algoritmo de cifrado,<br />
+            para cifrar un texto simplemente hay que poner en el recuadro el texto que
+            quieres cifrar,<br />
+            después de enviarlo desaparecerá el texto original del recuadro y aparecerá el
+            texto cifrado disponible para copiar.
+          </p>
+          <textarea class="textarea" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+        <div class="informacion">
+          <img class="info" src="images/Vector.png" alt="info" />
+          <p class="informacion">Solo letras minúsculas y sin acentos</p>
         </div>
         <div class="botones">
           <button class="btn-encriptar" onclick="encriptarClick()">Encriptar</button>
-          <button class="btn-desencriptar" onclick="desencriptarClick()">Desencriptar</button>
-        </section>
-      <section class="sidebar">
-        <textarea class="mensaje" placeholder="" ></textarea>
-        <button class="btn-copiar" id="copiar" onclick="copiarClick()" >Copiar</button>
+          <button class="btn-desencriptar" onclick="desencriptarClick()">
+            Desencriptar
+          </button>
+          <button class="btn-copiar" id="copiar" onclick="copiarClick()">Copiar</button>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-          <span class="creditos">
-            © 2023 | Luca Guerrero - Todos los derechos reservados
-            </span>
+        <span class="creditos">
+          © 2023 | Luca Guerrero - Todos los derechos reservados
+        </span>
       </div>
     </footer>
-    <script src='index.js'> </script>
+    <script src="index.js"></script>
   </body>
 </html>
